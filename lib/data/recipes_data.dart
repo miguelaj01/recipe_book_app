@@ -1,0 +1,108 @@
+import '../models/recipe.dart';
+
+const List<Recipe> sampleRecipes = [
+  Recipe(
+    name: 'Creamy Garlic Pasta',
+    imagePath: 'assets/images/pasta.jpg',
+    description:
+        'A quick and comforting pasta recipe with a creamy garlic sauce.',
+    cookTimeMinutes: 25,
+    difficulty: 'Easy',
+    ingredients: [
+      '8 oz pasta',
+      '2 tablespoons butter',
+      '3 cloves garlic, minced',
+      '1 cup heavy cream',
+      '1/2 cup grated parmesan cheese',
+      'Salt and pepper to taste',
+      'Fresh parsley for garnish',
+    ],
+    instructions: [
+      'Boil pasta according to package directions.',
+      'Melt butter in a pan over medium heat.',
+      'Add garlic and cook until fragrant.',
+      'Pour in heavy cream and stir.',
+      'Add parmesan cheese and mix until smooth.',
+      'Combine the sauce with the cooked pasta.',
+      'Top with parsley and serve warm.',
+    ],
+  ),
+  Recipe(
+    name: 'Fluffy Pancakes',
+    imagePath: 'assets/images/pancakes.jpg',
+    description:
+        'Soft breakfast pancakes that are simple, sweet, and beginner-friendly.',
+    cookTimeMinutes: 20,
+    difficulty: 'Easy',
+    ingredients: [
+      '1 cup all-purpose flour',
+      '2 tablespoons sugar',
+      '2 teaspoons baking powder',
+      '1 cup milk',
+      '1 egg',
+      '2 tablespoons melted butter',
+      'Maple syrup for serving',
+    ],
+    instructions: [
+      'Mix flour, sugar, and baking powder in a bowl.',
+      'Whisk milk, egg, and melted butter in another bowl.',
+      'Combine wet and dry ingredients.',
+      'Heat a pan over medium heat.',
+      'Pour batter onto the pan.',
+      'Flip when bubbles form on top.',
+      'Serve with maple syrup.',
+    ],
+  ),
+  Recipe(
+    name: 'Fresh Garden Salad',
+    imagePath: 'assets/images/salad.jpg',
+    description:
+        'A light and colorful salad with fresh vegetables and simple dressing.',
+    cookTimeMinutes: 10,
+    difficulty: 'Very Easy',
+    ingredients: [
+      '2 cups lettuce',
+      '1 cucumber, sliced',
+      '1 tomato, chopped',
+      '1/4 red onion, sliced',
+      '1/4 cup shredded carrots',
+      '2 tablespoons olive oil',
+      '1 tablespoon lemon juice',
+      'Salt and pepper to taste',
+    ],
+    instructions: [
+      'Wash and dry all vegetables.',
+      'Chop lettuce, tomato, cucumber, and onion.',
+      'Place vegetables in a large bowl.',
+      'Mix olive oil, lemon juice, salt, and pepper.',
+      'Pour dressing over the salad.',
+      'Toss gently and serve fresh.',
+    ],
+  ),
+  Recipe(
+    name: 'Chicken Tacos',
+    imagePath: 'assets/images/tacos.jpg',
+    description:
+        'A flavorful taco recipe with seasoned chicken and fresh toppings.',
+    cookTimeMinutes: 30,
+    difficulty: 'Medium',
+    ingredients: [
+      '2 chicken breasts',
+      '1 tablespoon taco seasoning',
+      '8 small tortillas',
+      '1 cup shredded lettuce',
+      '1/2 cup diced tomatoes',
+      '1/2 cup shredded cheese',
+      'Sour cream or salsa for topping',
+    ],
+    instructions: [
+      'Season chicken with taco seasoning.',
+      'Cook chicken in a pan until fully done.',
+      'Slice or shred the cooked chicken.',
+      'Warm tortillas in a pan.',
+      'Add chicken to each tortilla.',
+      'Top with lettuce, tomatoes, cheese, and salsa.',
+      'Serve immediately.',
+    ],
+  ),
+];
